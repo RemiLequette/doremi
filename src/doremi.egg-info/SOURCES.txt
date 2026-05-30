@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+src/doremi/__init__.py
+src/doremi/__main__.py
+src/doremi/app.py
+src/doremi/config.py
+src/doremi.egg-info/PKG-INFO
+src/doremi.egg-info/SOURCES.txt
+src/doremi.egg-info/dependency_links.txt
+src/doremi.egg-info/requires.txt
+src/doremi.egg-info/top_level.txt

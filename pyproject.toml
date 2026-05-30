@@ -6,7 +6,9 @@ readme = "README.md"
 requires-python = ">=3.11"
 license = { text = "MIT" }
 authors = [ { name = "Your Name", email = "you@example.com" } ]
-dependencies = []
+dependencies = [
+    "requests>=2.31.0",
+]
 
 [tool.setuptools]
 package-dir = { "" = "src" }
