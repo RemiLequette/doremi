@@ -1,0 +1,23 @@
+[project]
+name = "doremi"
+version = "0.1.0"
+description = "Assistant domotique vocal en français pour contrôler des appareils et services à la maison."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [ { name = "Your Name", email = "you@example.com" } ]
+dependencies = []
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["doremi*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"

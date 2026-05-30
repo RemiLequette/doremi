@@ -2,14 +2,25 @@
 
 ## Table des matières
 
-- [Pipeline complet](#pipeline-complet)
-- [Phase 1 — Cloud](#phase-1--cloud)
-- [Phase 2 — Local](#phase-2--local)
-- [Matériel recommandé](#matériel-recommandé)
-- [Exemples de code](#exemples-de-code)
-- [Points à valider pendant les tests](#points-à-valider-pendant-les-tests)
-- [Ressources](#ressources)
-- [Keywords](#keywords)
+- [Architecture et Outils](#architecture-et-outils)
+  - [Table des matières](#table-des-matières)
+  - [Pipeline complet ↑](#pipeline-complet-)
+  - [Phase 1 — Cloud ↑](#phase-1--cloud-)
+    - [Speech-to-Text](#speech-to-text)
+    - [LLM](#llm)
+    - [Exécution des instructions](#exécution-des-instructions)
+  - [Phase 2 — Local ↑](#phase-2--local-)
+    - [Installation Ollama](#installation-ollama)
+    - [Lancer les modèles](#lancer-les-modèles)
+  - [Matériel recommandé ↑](#matériel-recommandé-)
+  - [Exemples de code ↑](#exemples-de-code-)
+    - [Speech-to-Text — Whisper via Hugging Face](#speech-to-text--whisper-via-hugging-face)
+    - [LLM — Mistral-7B via Hugging Face](#llm--mistral-7b-via-hugging-face)
+    - [Exécution — Home Assistant](#exécution--home-assistant)
+    - [Workflow local — Ollama](#workflow-local--ollama)
+  - [Points à valider pendant les tests ↑](#points-à-valider-pendant-les-tests-)
+  - [Ressources ↑](#ressources-)
+  - [Keywords](#keywords)
 
 ---
 
